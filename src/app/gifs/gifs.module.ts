@@ -5,6 +5,7 @@ import { HomePageComponent } from './pages/home/home-page.component';
 import { SearBoxComponent } from './components/search-box/search-box.component';
 import { CardListComponent } from './components/card-list/card-list.component';
 import { SidebarComponent } from '../shared/components/sidebar/sidebar.component';
+import { CardComponent } from './components/card/card.component';
 
 
 
@@ -13,6 +14,7 @@ import { SidebarComponent } from '../shared/components/sidebar/sidebar.component
     HomePageComponent,
     SearBoxComponent,
     CardListComponent,
+    CardComponent,
   ],
   imports: [
     CommonModule
